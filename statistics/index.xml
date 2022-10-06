@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics Homeworks on Lotus Blog</title>
+    <link>https://lotus98.github.io/statistics/</link>
+    <description>Recent content in Statistics Homeworks on Lotus Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Oct 2022 18:05:52 +0200</lastBuildDate><atom:link href="https://lotus98.github.io/statistics/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
