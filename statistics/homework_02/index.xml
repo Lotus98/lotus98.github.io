@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeworks - 02 on Lotus Blog</title>
+    <link>https://lotus98.github.io/statistics/homework_02/</link>
+    <description>Recent content in Homeworks - 02 on Lotus Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Oct 2022 09:39:20 +0200</lastBuildDate><atom:link href="https://lotus98.github.io/statistics/homework_02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theory about applications - [TA2]</title>
+      <link>https://lotus98.github.io/statistics/homework_02/ta_02/</link>
+      <pubDate>Mon, 10 Oct 2022 09:47:16 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_02/ta_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application - [A3, A4]</title>
+      <link>https://lotus98.github.io/statistics/homework_02/a_03/</link>
+      <pubDate>Mon, 10 Oct 2022 09:47:02 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_02/a_03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application - [A2]</title>
+      <link>https://lotus98.github.io/statistics/homework_02/a_02/</link>
+      <pubDate>Mon, 10 Oct 2022 09:46:59 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_02/a_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory - [T4]</title>
+      <link>https://lotus98.github.io/statistics/homework_02/t_04/</link>
+      <pubDate>Mon, 10 Oct 2022 09:45:09 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_02/t_04/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
