@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Ta_04 - Lotus Blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="Ta_04" />
+        <title>Theory about applications - [TA4] - Lotus Blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="Theory about applications - [TA4]" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lotus98.github.io/statistics/homework_03/ta_04/" /><meta property="og:image" content="https://lotus98.github.io/img/logo-circle.png"/><meta property="article:section" content="statistics" />
@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://lotus98.github.io/img/logo-circle.png"/>
 
-<meta name="twitter:title" content="Ta_04"/>
+<meta name="twitter:title" content="Theory about applications - [TA4]"/>
 <meta name="twitter:description" content=""/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/img/logo-circle.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lotus98.github.io/statistics/homework_03/ta_04/" /><link rel="prev" href="https://lotus98.github.io/statistics/homework_03/ta_03/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -23,12 +23,12 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Ta_04",
+        "headline": "Theory about applications - [TA4]",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/lotus98.github.io\/statistics\/homework_03\/ta_04\/"
-        },"genre": "posts","wordcount":  25 ,
+        },"genre": "posts","wordcount":  788 ,
         "url": "https:\/\/lotus98.github.io\/statistics\/homework_03\/ta_04\/","datePublished": "2022-10-18T10:31:13+02:00","dateModified": "2022-10-18T10:31:13+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -79,11 +79,33 @@
             </a></div>
     </div>
 </header><main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Ta_04</h1><div class="post-meta">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theory about applications - [TA4]</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Nalin Dhingra</a></span>&nbsp;<span class="post-category">included in <a href="/categories/researches-about-theory-relevant-to-applications/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Researches about theory relevant to applications</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="18-10-2022">18-10-2022</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;25 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="content" id="content"><div class="details admonition question open">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="18-10-2022">18-10-2022</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;788 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#proof">Proof</a></li>
+    <li><a href="#an-alternative-solution">An alternative solution</a></li>
+    <li><a href="#final-considerations">Final considerations</a>
+      <ul>
+        <li><a href="#memory-consumption">Memory consumption</a></li>
+        <li><a href="#computational-complexity">Computational complexity</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition question open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
@@ -91,8 +113,93 @@
             <div class="admonition-content">Illustrate in particular, Knuth recursion for the computation of the arithmetic mean or average, discussion why it is preferable to the &ldquo;naive&rdquo; algo</div>
         </div>
     </div>
-<hr>
-<h2 id="sources">Sources</h2></div><div class="post-footer" id="post-footer">
+<h2 id="introduction">Introduction</h2>
+<p>The Knuth <em>online</em> algorithm described in the lesson allows us to calculate the arithmetic mean without needing to keep track of all the values collected. This is particularly useful for the reasons we will explain after a brief demonstration on how to obtain the formula.</p>
+<h2 id="proof">Proof</h2>
+<p>First of all let&rsquo;s define some notation. We will denote with \(x_{i}\) the i-th element of the sum and with $\bar x_{i}$ the arithmetic mean at step i.</p>
+<p>Here is the <em>naive</em> formula to calculate the arithmetic mean:
+$$
+\bar x_{n}={\frac {1}{n}}\sum_ {i=1}^{n}x_{i}={\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}
+$$</p>
+<p>Given this general formula we can rewrite it putting emphasis on the last and penultimate elements:
+$$
+\bar x_{n}={\frac {x_{1}+\cdots+x_{n-1}+x_{n}}{n}} \\
+$$
+$$
+\bar x_{n}={\frac {x_{1}+\cdots+x_{n-1}}{n}}+{\frac {x_{n}}{n}}
+$$
+Now we can multiply the first member of the addition by $ (\frac {n-1}{n-1}) $
+$$
+\bar x_{n}=({\frac {n-1}{n-1}})\cdot {\frac {x_{1}+\cdots+x_{n-1}}{n}}+{\frac {x_{n}}{n}}
+$$
+$$
+\bar x_{n}=({\frac {n-1}{n}})\cdot \fcolorbox{red}{#292a2d}{$\frac {x_{1}+\cdots+x_{n-1}}{n-1}$}+{\frac {x_{n}}{n}}
+$$
+Note how the highlighted member is simply $ \bar x_{n-1} $, we can therefore rewrite the formula as
+$$
+\bar x_{n}=({\frac {n-1}{n}})\cdot {\bar x_{n-1}}+{\frac {x_{n}}{n}}
+$$
+$$
+\bar x_{n}={\frac {(\bar x_{n-1}\cdot n)-\bar x_{n-1}}{n}}+{\frac {x_{n}}{n}}
+$$
+$$
+\bar x_{n}={\frac {\bar x_{n-1}\cdot \cancel n}{\cancel n}}-{\frac {\bar x_{n-1}}{n}}+{\frac {x_{n}}{n}}
+$$
+From which we can obtain the final formula
+$$
+\colorbox{#208020}{$ \Large{\bar x_{n}=\bar x_{n-1}+{\frac {x_{n}-\bar x_{n-1}}{n}} } $}
+$$
+We recognise this as the same formula seen during the lesson.</p>
+<h2 id="an-alternative-solution">An alternative solution</h2>
+<p>While trying to obtain the online formula for the arithmetic mean I actually used a slightly different approach, which gave me as a result a different formula which I consider to be correct. I think the formula I obtained can be rewritten as the one shown above and during the lesson, but I think it is still interesting to follow my initial reasoning to get it, as it demonstrated to myself once again that reasoning is more important than memorizing.<br>
+The approach I used is actually very similar to the <em>&ldquo;original&rdquo;</em> one.</p>
+<p>Let&rsquo;s start once again from the general formula:
+$$
+\bar x_{n}={\frac {x_{1}+\cdots+x_{n}}{n}}
+$$
+This can be used to calculate $ \bar x_{n}$, let&rsquo;s now use it to calculate $ \bar x_{n+1}$
+$$
+\bar x_{n+1}={\frac {x_{1}+\cdots+x_{n}+x_{n+1}}{n+1}}
+$$
+Let&rsquo;s once again separate the fraction
+$$
+\bar x_{n+1}={\frac {x_{1}+\cdots+x_{n}}{n+1}}+{\frac {x_{n+1}}{n+1}}
+$$
+Multiply
+$$
+\bar x_{n+1}=({\frac {n}{n}})\cdot{\frac {x_{1}+\cdots+x_{n}}{n+1}}+{\frac {x_{n+1}}{n+1}}
+$$
+$$
+\bar x_{n+1}=({\frac {n}{n+1}})\cdot \fcolorbox{red}{#292a2d}{$\frac {x_{1}+\cdots+x_{n}}{n}$} + {\frac {x_{n+1}}{n+1}}
+$$
+$$
+\bar x_{n+1}=({\frac {n}{n+1}})\cdot{\bar x_{n}}+{\frac {x_{n+1}}{n+1}}
+$$
+With the final step we obtain the following formula:
+$$
+\colorbox{#208020}{$ \Large{\bar x_{n+1} = {\frac{(\bar x_{n}\cdot n) + x_{n+1}}{n+1}} } $}
+$$</p>
+<h2 id="final-considerations">Final considerations</h2>
+<p>Let&rsquo;s now discuss why an <em>&ldquo;online&rdquo;</em> algorithm is preferable to the <em>&ldquo;naive&rdquo;</em> one.
+My consideration will be focused on two key points:</p>
+<ul>
+<li>Memory consumption</li>
+<li>Computational complexity</li>
+</ul>
+<h3 id="memory-consumption">Memory consumption</h3>
+<p>The classic naive solution is of course very heavy on memory usage, just imagine a continuos stream of data coming in, to be able to <strong>batch process</strong> all this data we would need to store every input value, but to do so we would need an infinite amount of memory which is of course impossible to have.<br>
+On the other end the online solution, provides us with a <strong>stream processing</strong> tool which only needs a constant amount of memory, which is of course very easy to provide. In particular to calculate the mean at step <strong>n</strong> ($\bar x_{n}$) we would need to hold the following values:</p>
+<ul>
+<li>Previous mean $ \bar x_{n-1} $</li>
+<li>The number of values processed so far $ n $</li>
+<li>The new value to process $ x_n $</li>
+</ul>
+<h3 id="computational-complexity">Computational complexity</h3>
+<p>The lack of infinite memory is not the only problem we face with <strong>batch processing</strong>, also the computational complexity of the naive formula is impossible to achieve. Supposing to not have a parallel algorithm to perform the additions needed, we would need to compute a linear number of additions each time the mean is updated corresponding to the number of values to process, this gives us a complexity of $O(n)$ at the n-th step and so on.
+Even supposing we wouldn&rsquo;t need to deal with a continuos stream of data but just a fix number <strong>n</strong> of values, if we needed to compute the mean everytime a new value is provided, the total complexity at the end of the execution would be $O(n^2)$ (using <em>Gauss&rsquo;s summation</em>).
+Again in this case we can lower the execution to $O(n)$ since in the online algorithm the time complexity to calculate the mean is constant $O(1)$.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>For this reasons it is fair to conclude that in case we don&rsquo;t need to save the single values, it&rsquo;s always best to calculate the arithmetic mean using the online algorithm.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -101,7 +208,7 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Ta_04" data-via="@LotusOne"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Ta_04"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Ta_04"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Ta_04"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Theory about applications - [TA4]" data-via="@LotusOne"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Theory about applications - [TA4]"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Theory about applications - [TA4]"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lotus98.github.io/statistics/homework_03/ta_04/" data-title="Theory about applications - [TA4]"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -113,7 +220,7 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/statistics/homework_03/ta_03/" class="prev" rel="prev" title="Ta_03"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Ta_03</a></div>
+    <div class="post-nav"><a href="/statistics/homework_03/ta_03/" class="prev" rel="prev" title="Theory about applications - [TA3]"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Theory about applications - [TA3]</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
@@ -127,5 +234,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

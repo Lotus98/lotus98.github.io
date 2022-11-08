@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/lotus98.github.io\/statistics\/homework_03\/t_05\/"
-        },"genre": "posts","wordcount":  158 ,
+        },"genre": "posts","wordcount":  309 ,
         "url": "https:\/\/lotus98.github.io\/statistics\/homework_03\/t_05\/","datePublished": "2022-10-18T10:30:41+02:00","dateModified": "2022-10-18T10:30:41+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -79,11 +79,30 @@
             </a></div>
     </div>
 </header><main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theory - [T5]</h1><div class="post-meta">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theory - [T5]</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Nalin Dhingra</a></span>&nbsp;<span class="post-category">included in <a href="/categories/researches-about-pure-theory/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Researches about pure theory</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="18-10-2022">18-10-2022</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;158 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="content" id="content"><div class="details admonition question open">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="18-10-2022">18-10-2022</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;309 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#contingency-table">Contingency table</a></li>
+    <li><a href="#joint-frequency">Joint frequency</a></li>
+    <li><a href="#extended-contingency-table">Extended contingency table</a></li>
+    <li><a href="#marginal-frequency">Marginal frequency</a></li>
+    <li><a href="#conditional-frequency">Conditional frequency</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition question open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
@@ -91,7 +110,7 @@
             <div class="admonition-content">Illustrate the concept of conditional, joint, marginal (relative) frequency using a simple bivariate distribution</div>
         </div>
     </div>
-<h2 id="the-distribution">The distribution</h2>
+<h2 id="dataset">Dataset</h2>
 <p>Let&rsquo;s first of all define our bivariate distribution.<br>
 As a study case we will take the population of students and as random variables we will take the grades taken in a certain exam and the current average of each student.</p>
 <table>
@@ -125,7 +144,7 @@ As a study case we will take the population of students and as random variables 
 </tr>
 </tbody>
 </table>
-<h2 id="the-contingency-table">The contingency table</h2>
+<h2 id="contingency-table">Contingency table</h2>
 <p>Now we have our dataset, let&rsquo;s build the contingecy table:</p>
 <table>
 <thead>
@@ -161,8 +180,72 @@ As a study case we will take the population of students and as random variables 
 </tr>
 </tbody>
 </table>
-<h2 id="now-we-can-easily-see-the-conditional-frequencies-which-are-the-ones-displayed-in-each-cell-of-our-table-for-example-the-conditional-frequency-of-students-that-took-a-grade-of-26-and-have-a-mean-of-20-is-1-while-the-ones-having-a-grade-of-26-and-average-of-27">Now we can easily see the conditional frequencies, which are the ones displayed in each cell of our table, for example the conditional frequency of students that took a grade of 26 and have a mean of 20 is 1, while the ones having a grade of 26 and average of 27.</h2>
-<h2 id="sources">Sources</h2></div><div class="post-footer" id="post-footer">
+<h2 id="joint-frequency">Joint frequency</h2>
+<p>The joint frequency can be seen as the frequency of two events happening at the same time.
+We can make an example taking the previous contingency table:
+$$freq(Grade=26, Average=21) = 1$$
+This value is immediately visible on the contingency table.</p>
+<h2 id="extended-contingency-table">Extended contingency table</h2>
+<p>Now let&rsquo;s show the contingency table above with the corresponding marginal frequencies:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Grade\Average</th>
+<th style="text-align:center">20</th>
+<th style="text-align:center">21</th>
+<th style="text-align:center">27</th>
+<th style="text-align:center">29</th>
+<th style="text-align:center">Marginal Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">26</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">28</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">30</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">Marginal Average</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="marginal-frequency">Marginal frequency</h2>
+<p>Given the extended contingency table, we can see what the marginal frequencies for each column and row are. These values represent the sum of all the joint relative frequencies of a specific row or column.</p>
+<h2 id="conditional-frequency">Conditional frequency</h2>
+<p>Given all the information derived up to now it is immediate to define the conditional frequency as the number of occurences of a certain even conditioned on another specific even.<br>
+This can be defined by the following formula:
+$$ cond\_freq = (joint / marginal) $$
+For example if we want to find the conditional frequency of all students who got a grade of 30 conditioned on having a average of 27:
+$$ cond\_freq = (1 / 1)$$</p>
+<hr>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://study.com/learn/lesson/conditional-joint-marginal-relative-frequency-overview-comparison-examples.html" target="_blank" rel="noopener noreffer ">https://study.com/learn/lesson/conditional-joint-marginal-relative-frequency-overview-comparison-examples.html</a></li>
+</ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -198,5 +281,5 @@ As a study case we will take the population of students and as random variables 
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
