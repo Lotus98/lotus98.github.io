@@ -3,9 +3,33 @@
         <title>Lotus Blog</title>
         <link>https://lotus98.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Nov 2022 20:37:42 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Nov 2022 17:24:46 &#43;0200</lastBuildDate>
             <atom:link href="https://lotus98.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Application - [A10]</title>
+    <link>https://lotus98.github.io/statistics/homework_06/a_10/</link>
+    <pubDate>Sun, 06 Nov 2022 17:24:46 &#43;0200</pubDate>
+    <author>Nalin Dhingra</author>
+    <guid>https://lotus98.github.io/statistics/homework_06/a_10/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Theory - [T14]</title>
+    <link>https://lotus98.github.io/statistics/homework_06/t_14/</link>
+    <pubDate>Sun, 06 Nov 2022 17:24:35 &#43;0200</pubDate>
+    <author>Nalin Dhingra</author>
+    <guid>https://lotus98.github.io/statistics/homework_06/t_14/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Theory - [T13]</title>
+    <link>https://lotus98.github.io/statistics/homework_06/t_13/</link>
+    <pubDate>Sun, 06 Nov 2022 17:24:32 &#43;0200</pubDate>
+    <author>Nalin Dhingra</author>
+    <guid>https://lotus98.github.io/statistics/homework_06/t_13/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Application - [A9]</title>
     <link>https://lotus98.github.io/statistics/homework_05/a_09/</link>
     <pubDate>Wed, 02 Nov 2022 20:37:42 &#43;0100</pubDate>
@@ -59,30 +83,6 @@
     <pubDate>Mon, 24 Oct 2022 21:31:30 &#43;0200</pubDate>
     <author>Nalin Dhingra</author>
     <guid>https://lotus98.github.io/statistics/homework_04/ta_05/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Application - [A6, A7]</title>
-    <link>https://lotus98.github.io/statistics/homework_04/a_06/</link>
-    <pubDate>Mon, 24 Oct 2022 21:30:41 &#43;0200</pubDate>
-    <author>Nalin Dhingra</author>
-    <guid>https://lotus98.github.io/statistics/homework_04/a_06/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Theory - [T9]</title>
-    <link>https://lotus98.github.io/statistics/homework_04/t_09/</link>
-    <pubDate>Mon, 24 Oct 2022 21:30:30 &#43;0200</pubDate>
-    <author>Nalin Dhingra</author>
-    <guid>https://lotus98.github.io/statistics/homework_04/t_09/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Theory - [T8]</title>
-    <link>https://lotus98.github.io/statistics/homework_04/t_08/</link>
-    <pubDate>Mon, 24 Oct 2022 21:30:26 &#43;0200</pubDate>
-    <author>Nalin Dhingra</author>
-    <guid>https://lotus98.github.io/statistics/homework_04/t_08/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

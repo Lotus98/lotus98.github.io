@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeworks - 06 on Lotus Blog</title>
+    <link>https://lotus98.github.io/statistics/homework_06/</link>
+    <description>Recent content in Homeworks - 06 on Lotus Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Nov 2022 17:22:35 +0200</lastBuildDate><atom:link href="https://lotus98.github.io/statistics/homework_06/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application - [A10]</title>
+      <link>https://lotus98.github.io/statistics/homework_06/a_10/</link>
+      <pubDate>Sun, 06 Nov 2022 17:24:46 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_06/a_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory - [T14]</title>
+      <link>https://lotus98.github.io/statistics/homework_06/t_14/</link>
+      <pubDate>Sun, 06 Nov 2022 17:24:35 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_06/t_14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory - [T13]</title>
+      <link>https://lotus98.github.io/statistics/homework_06/t_13/</link>
+      <pubDate>Sun, 06 Nov 2022 17:24:32 +0200</pubDate>
+      
+      <guid>https://lotus98.github.io/statistics/homework_06/t_13/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
